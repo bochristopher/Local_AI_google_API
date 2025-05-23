@@ -1,6 +1,6 @@
 # Google Search Sentiment Analyzer
 
-This Python tool lets you search Google, analyze the sentiment of the results using a Hugging Face transformer model, and filter results based on high-confidence scores. It’s ideal for gauging public sentiment on any topic using real-time web content.
+This Python tool lets you search Google, analyze the sentiment of the results using a Hugging Face transformer model, and filter results based on high-confidence scores. It’s ideal for gauging public sentiment on any topic or person using real-time web content.
 
 ---
 
