@@ -1,19 +1,19 @@
-# 🔍 Google Search Sentiment Analyzer
+# Google Search Sentiment Analyzer
 
 This Python tool lets you search Google, analyze the sentiment of the results using a Hugging Face transformer model, and filter results based on high-confidence scores. It’s ideal for gauging public sentiment on any topic using real-time web content.
 
 ---
 
-## 1. 🚀 Features
+## 1. Features
 
-- 🌐 Fetches Google search results using the Custom Search API  
-- 🤖 Analyzes sentiment using `distilbert-base-uncased-finetuned-sst-2-english`  
-- 📈 Filters for high-confidence results (score > 0.9)  
-- 📝 Saves results to a local `sentiment_results.txt` file  
+- Fetches Google search results using the Custom Search API  
+- Analyzes sentiment using `distilbert-base-uncased-finetuned-sst-2-english`  
+- Filters for high-confidence results (score > 0.9)  
+- Saves results to a local `sentiment_results.txt` file  
 
 ---
 
-## 2. 🛠️ Setup Instructions
+## 2. Setup Instructions
 
 ### 2.1 Clone the Repository
 
@@ -40,11 +40,11 @@ cx = "YOUR_CUSTOM_SEARCH_ENGINE_ID"
 ```
 
 To get these:
-- 📘 [Google Custom Search setup guide](https://developers.google.com/custom-search/v1/introduction)
+- [Google Custom Search setup guide](https://developers.google.com/custom-search/v1/introduction)
 
 ---
 
-## 3. ▶️ Usage
+## 3. Usage
 
 ```bash
 python sentiment_search.py
@@ -59,7 +59,7 @@ Enter your search query when prompted. The script will:
 
 ---
 
-## 4. 🧪 Example Output
+## 4. Example Output
 
 ```
 Text: Tesla AI day stuns investors - Learn what happened
@@ -70,7 +70,7 @@ Source: https://example.com/article123
 
 ---
 
-## 5. 📦 Requirements
+## 5. Requirements
 
 - Python 3.7+  
 - `transformers`  
@@ -84,7 +84,7 @@ pip install transformers requests
 
 ---
 
-## 6. 📁 Project Structure
+## 6. Project Structure
 
 ```
 google-search-sentiment-analyzer/
@@ -96,17 +96,17 @@ google-search-sentiment-analyzer/
 
 ---
 
-## 7. 🛡️ License
+## 7. License
 
 MIT License — free to use, modify, and distribute.
 
 ---
 
-## 8. ✨ Acknowledgments
+## 8. Acknowledgments
 
-- 🤗 [Hugging Face Transformers](https://huggingface.co/transformers/)
-- 🔍 [Google Custom Search API](https://developers.google.com/custom-search)
+- [Hugging Face Transformers](https://huggingface.co/transformers/)
+- [Google Custom Search API](https://developers.google.com/custom-search)
 
 ---
 
-> Built with Python, curiosity, and AI 🔧🧠
+> Built with Python, curiosity, and AI 
